@@ -44,6 +44,9 @@
     background-image: url(./images/ground.gif);
     background-size: cover;
   }
+  #game-end {
+    display: none;
+  }
   .jump{
     animation: jump 0.3s linear
   }

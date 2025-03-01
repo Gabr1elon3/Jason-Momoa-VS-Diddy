@@ -3,19 +3,20 @@ window.onload=function(){
     const restartButton=document.getElementById('restart-button');
     let game;
     startButton.addEventListener('click', function (){
-        start();
+        startGame();
     
     });
     restartButton.addEventListener('click', function(){
         location.reload();
 
     });
-    function start(){
+    function startGame(){
         console.log("start game")
         game= new Game();
         game.start();
 
     }
+    
     window.addEventListener('keydown', (elsevent)=>{
         const possibleKeys=['space', 'shiftkey'];
         if(possibleKeys.includes(elsevent.key)){
@@ -23,7 +24,7 @@ window.onload=function(){
             //now you have to add the shift thingy that makes him dodge by rotating the character
         }
     })
-
-    
     
 }
+
+

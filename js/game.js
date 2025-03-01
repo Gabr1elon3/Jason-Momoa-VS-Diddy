@@ -10,8 +10,12 @@ class Game {
         this.scoreHTML = document.getElementById('score');
         this.lives = 3;
         this.livesHTML = document.getElementById('lives');
+
+        this.gameIsOver = false;
+    this.gameIntervalId;
+    this.gameLoopFrequency = 1000 / 60;
     }
-    start() {
+    startGame() {
         // hiding startScreen and showing gameScreen
         this.gameScreen.style.width = `${this.width}px`;
         this.gameScreen.style.height = `${this.height}px`;
