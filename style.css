@@ -1,0 +1,42 @@
+.vs-button {
+    position: absolute;
+    width:10%;
+    top: 40%;
+    left: 45%;
+    size-adjust: 30%;
+    cursor: pointer;
+}
+#game-intro {
+    background-image: url('./images/ga.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the height of the body to the full viewport height */
+    display: flex; /* Center the content vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+  }
+
+  #instructions{
+    position:absolute;
+    top:60%;
+    text-align: center;
+    left:34%;
+  }
+  #game-container {
+    display: flex;
+    /* width: 100vw; */
+    padding: 10px 0px;
+    justify-content: center;
+  }
+  
+  #game-screen {
+    display: none;
+    align-content: center;
+    padding: 20px 0px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(./images/ground.gif);
+    background-size: cover;
+  }
