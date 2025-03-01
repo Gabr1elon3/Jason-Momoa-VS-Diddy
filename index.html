@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Jason-vs-Diddy</title>
+  </head>
+  <body>
+    <main>
+        <div id="game-intro">
+            <button id="start-button">
+                <img class="vs-button" src="./images/versus-removebg-preview.png" alt="start-button">
+            </button>
+        </div>
+        <div id="instructions">
+            <p>Avoid Diddy's lethal baby oil! Get hit 3 times by his liquid goodness and...game over 
+            </p>
+       <p>Do not forget to use SPACEBAR to jump and SHIFT to dodger</p>
+       <p>To start click on VS</p>
+        </div>
+        <div id="game-container">
+          <div>
+            <h2>Stats</h2>
+            <p>Score: <span id="score">0</span></p>
+            <p>Lives: <span id="lives">3</span></p>
+          </div>
+          <!-- #game-screen is initially hidden using CSS style display: none -->
+          <div id="game-screen"></div>
+        </div>
+        <div id="game-end">
+          <img src="./images/ga.png" alt="" class="jasonDiddy"/>
+          <h1>YOU LOST (hihi) </h1>
+          <br />
+          <button id="restart-button"> Restart</button>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/obstacle.js"></script>
+    <script type="text/javascript" src="js/player.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
