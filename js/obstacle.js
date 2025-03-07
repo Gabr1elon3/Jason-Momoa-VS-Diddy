@@ -5,7 +5,7 @@ class Obstacle {
       this.top = top
       this.left = left
 
-      this.image = "./images/diddyoil.png"
+      this.image = "images/diddyoil.png"
 
       this.element.style.width = "35px"
       this.element.style.height = "52px"
