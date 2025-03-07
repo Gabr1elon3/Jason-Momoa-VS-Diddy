@@ -26,4 +26,4 @@ JS Audio() and JS Image()
 
 
 **UPDATED VERSION**
-due to lack of time the dodging part will be omitted 
+due to lack of time the dodging part will be omitted.
