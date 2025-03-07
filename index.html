@@ -11,29 +11,38 @@
     <main>
         <div id="game-intro">
             <button id="start-button">
-                <img class="vs-button" src="./images/versus-removebg-preview.png" alt="start-button">
+                <div><img class="vs-button" src="./images/versus-removebg-preview.png" alt="start-button"></div>
             </button>
+            <div id="instructions">
+              <p>Avoid Diddy's lethal baby oil! Get hit 3 times by his liquid goodness and...game over 
+              </p>
+         <p>Do not forget to use SPACEBAR to jump and SHIFT to dodge</p>
+         <p>To start click on VS</p>
+          </div>
         </div>
-        <div id="instructions">
-            <p>Avoid Diddy's lethal baby oil! Get hit 3 times by his liquid goodness and...game over 
-            </p>
-       <p>Do not forget to use SPACEBAR to jump and SHIFT to dodger</p>
-       <p>To start click on VS</p>
-        </div>
+       
         <div id="game-container">
           <div>
             <h2>Stats</h2>
             <p>Score: <span id="score">0</span></p>
             <p>Lives: <span id="lives">3</span></p>
+           
+          </div>
+          <div id="game-screen">
+            <!-- <div id="oil"></div> -->
+      
+            
+        
           </div>
           <!-- #game-screen is initially hidden using CSS style display: none -->
-          <div id="game-screen"></div>
         </div>
+        
         <div id="game-end">
-          <img src="./images/ga.png" alt="" class="jasonDiddy"/>
-          <h1>YOU LOST (hihi) </h1>
-          <br />
-          <button id="restart-button"> Restart</button>
+          <img src="./images/spongy.jpg" alt="" class="logo-img"/>
+          <div id="loss"><h1>YOU LOST (hihi) </h1>
+            <br />
+            <button id="restart-button"> Restart</button></div>
+          
         </div>
     </main>
     <script type="text/javascript" src="js/obstacle.js"></script>
