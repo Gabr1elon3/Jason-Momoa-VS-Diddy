@@ -18,7 +18,7 @@ class Game {
         this.player=new Player(this.gameScreen, 0, 150);
         this.music = new Audio();
         this.music.src='audio/music.mp3'
-        this.music.volume=0.2;
+        this.music.volume=0.4;
     
         this.gameIsOver = false;
     this.gameIntervalId;
